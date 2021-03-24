@@ -1,0 +1,126 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+.ata-red {
+    color: #b80f0a;
+}
+
+.ata-black {
+    color: #100c08
+}
+
+.ata-white {
+    color: #fcfcfc;
+}
+
+b {
+    font-weight: 600;
+}
+
+.chevron ul {
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.chevron li {
+    list-style-image: url('../images/right-chevron.svg')
+}
+
+.red-purple{
+    background-color: #e41c2d;
+  }
+.red-purple img{
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(1);
+    filter: grayscale(100%) contrast(.8);
+}
+.red-purple::after{
+    background-color: #1d3162;
+    mix-blend-mode: lighten;
+}
+
+.about-content {
+    font-size: 21px;
+}
+
+.vision-title {
+    font-size: 32px;
+}
+
+.vision-content {
+    font-size: 24px;
+}
+
+.bg-image-orang {
+    background-image: url('../images/bg-orang-red.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-red {
+    background-color: #b80f0a;
+    height: 100%;
+}
+
+.bg-red-50 {
+    background-color: #b80f0a;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.bg-footer {
+    background-image: url('../images/bg-footer.png');
+    background-position: center;
+}
+
+.menu-item:hover > .menu-link, .menu-item.current > .menu-link {
+    color: #b80f0a;
+}
+
+.section-title {
+    font-size: 64px;
+}
+
+.section-subtitle {
+    font-size: 42px;
+}
+
+.section-ads-quote {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5px;
+    padding: 0;
+    margin: 0%;
+    font-size: 128px;
+    color: #fcfcfc;
+}
+
+.section-ads-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 81px;
+    color: #fcfcfc;
+    margin: 0%;
+}
+
+.service-content {
+    font-size: 24px;
+}
+
+.service-content-list {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#footer {
+    background-color: #b80f0a;
+    color: #fcfcfc;
+}
+
+#copyrights {
+    background-color: #b80f0a;
+}
+
