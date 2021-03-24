@@ -1,4 +1,7 @@
-<footer id="footer" class="bg-footer">
+<div class="container-fluid p-0">
+    <img src="{{ asset('/assets/images/bg-footer-top.png') }}" style="width:100%;">
+</div>
+<footer id="footer">
     <div class="container" style="padding-top: 75px;">
         <!-- Footer Widgets
         ============================================= -->
